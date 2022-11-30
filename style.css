@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  body{
+    height: 100vh;
+  }
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+  
+  nav.navbar-container {
+    display: flex;
+    flex: auto;
+    padding: 1.5rem 4rem;
+    align-items: center;
+}
+.grow-list {
+    flex-grow: 1;
+}
+ul.list {
+    /* justify-content: center; */
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem;
+}
+nav.navbar-container img {
+  width: 100px;
+}
+
+li.list-item {
+  color: #999;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  transition: ease-in .3s;
+
+}
+li.list-item:first-child,li.list-item:hover{
+  color: #5955b3;
+  font-weight: bold;
+}
+button.nav-button{
+  background: #5955b3;
+  padding: .8rem 1.5rem;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+  /* ------------------------------ */
+  /* ---------- HERO ------------ */
+  /* ------------------------------ */
+button.nav-button.btn {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+}
+button.button-large {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+}
+.banner-container div:first-child {
+    flex-grow: 4;
+    padding: 2rem 4rem;
+    margin: auto 0;
+}
+h1.heading-text {
+    /* flex-grow: 2; */
+    font-size: 4.4rem;
+    color: #3c2f60;
+}
+h1.heading-text span {
+    color: #5955b3;
+}
+p {
+    color: #999;
+    width: 50%;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+    font-size: 1rem;
+    flex-shrink: 2;
+}
+button.nav-button.btn {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+}
+.banner-container div:nth-child(2) {
+    text-align: right;
+}
+.banner-container div:nth-child(2) img {
+    width: 100%;
+    min-width: 200px;
+}
+  
